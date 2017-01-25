@@ -187,14 +187,14 @@
             <artifactId>mcsdk-ext</artifactId>
             <version>1.1.4</version>
             <scope>system</scope>
-            <systemPath>lib/mcsdk-ext-1.1.4.jar</systemPath>
+            <systemPath>${project.basedir}lib/mcsdk-ext-1.1.4.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.hundsun</groupId>
             <artifactId>t2sdk-ext</artifactId>
             <version>1.1.15</version>
             <scope>system</scope>
-            <systemPath>lib/t2sdk-ext-1.1.15.jar</systemPath>
+            <systemPath>${project.basedir}lib/t2sdk-ext-1.1.15.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
